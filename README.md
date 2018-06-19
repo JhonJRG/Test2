@@ -6,6 +6,8 @@
 
  3. ```git push -u origin dev:dev```（远程分支的建立，就是这样做）
  
+ ps：多嘴一句，clone仓库的远程分支可以直接这样做```git checkout -b dev origin/master```(切换到新建立的本地分支dev与远程分支origin/master对应)
+ 
   ps:github上新建空文件夹，本地新建空文件夹并推送至github，重要的语句是git init。注意git init是初始化.git信息，所以只适用于本地空文件夹推送至远程仓库，切勿在本地仓库内滥用，否则会删除掉以往操作信息及状态
   
   
