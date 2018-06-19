@@ -12,7 +12,7 @@
   
 
 
-  #####我们设置本地仓库分支master对应远程仓库的master分支#####
+  **我们设置本地仓库分支master对应远程仓库的master分支**
 
   1）方法 git branch --set-upstream master origin/master （必须要在本地分支master里执行才行）
   
