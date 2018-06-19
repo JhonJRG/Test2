@@ -10,8 +10,8 @@
  
   ps:github上新建空文件夹，本地新建空文件夹并推送至github，重要的语句是git init。注意git init是初始化.git信息，所以只适用于本地空文件夹推送至远程仓库，切勿在本地仓库内滥用，否则会删除掉以往操作信息及状态
   
-  
- ```
+
+######
   我们设置master对应远程仓库的master分支
 
   git branch --set-upstream master origin/master
@@ -27,5 +27,4 @@
   git push origin master (git push origin master:master)
 
   git pull origin dev (git pull origin dev:dev)
-  
-```
+######
